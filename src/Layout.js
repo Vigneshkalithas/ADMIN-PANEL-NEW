@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import { SideBar } from "./SideBar";
-import { PrimarySearchAppBar }from "./PrimarySearchAppBar"
+import { SideBar } from "./Sidebar/SideBar";
+import { Navbar }from "./Navbar/Navbar"
 
 export function Layout() {
 
@@ -11,7 +11,7 @@ export function Layout() {
         <div><SideBar/></div>
           <div className="top-nav">
           <div>
-          <PrimarySearchAppBar/>
+          <Navbar/>
           </div>
           <div className="bgColourApp">
          <Outlet/>

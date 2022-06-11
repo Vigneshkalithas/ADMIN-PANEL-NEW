@@ -1,6 +1,6 @@
 import React from "react";
 import { FourCards } from "./FourCards";
-import { Piechart , Areachart } from "./Charts";
+import { Piechart , Areachart } from "../Charts/Charts";
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 export function Dashboard() {

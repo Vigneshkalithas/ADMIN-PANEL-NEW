@@ -1,5 +1,5 @@
 import React from "react";
-import { FourCards } from "./FourCards";
+import { FourCards } from "../Dashboard/FourCards";
 
 export function Incards() {
   return (
